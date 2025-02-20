@@ -1,0 +1,24 @@
+#navbar-container{
+  background-color:crimson;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+#navbar-container > img{
+  border-radius: 10px;
+}
+#navLink{
+  display: flex;
+  gap:15px;
+  font-size:1.5rem;
+}
+#navBtn{
+  display: flex;
+  gap:20px
+}
+#navBtn button{
+  padding: 10px 20px;
+  border: none;
+  font-size: 1rem;
+}
