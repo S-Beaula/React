@@ -1,0 +1,23 @@
+#about{
+    text-align: center;
+    padding: 40px;
+    margin-left: 8%;
+    width:80%;
+    border: 0px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.mission{
+    padding: 40px;
+    margin-left: 8%;
+    width:80%;
+    border: 0px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.quote{
+    text-align: center;
+    padding: 40px;
+    margin-left: 8%;
+    width:80%;
+    border: 0px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}

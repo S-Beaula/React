@@ -1,0 +1,15 @@
+#product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:20px;
+    gap: 20px;
+}
+#product-container .product-card{
+    width: 400px; 
+    padding: 10px;
+    border: 2px solid black;
+}
+#product-container .product-card img{
+    width: 100%;
+}
