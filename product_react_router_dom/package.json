@@ -1,5 +1,6 @@
 {
-   "homepage": "https://s-beaula.github.io/product_react_router_dom/",
+   "homepage": "https://s-beaula.github.io/React/product_react_router_dom/"
+,
 
   "name": "product_react_router_dom",
   "version": "0.1.0",
@@ -24,8 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+     "predeploy": "npm run build && mv build docs",
+  "deploy": "git add . && git commit -m 'Deploy' && git push origin main"
   
   },
   "eslintConfig": {
