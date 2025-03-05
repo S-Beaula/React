@@ -17,6 +17,7 @@ const Login = () => {
     if (userFound) {
       alert("login successfully")
       setLoginDetails({ email: "", password: "" })
+      
     }
     else {
       alert("Invalid Credentials")
