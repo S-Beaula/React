@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-
+import {useNavigate} from "react-router-dom"
 const Login = () => {
+  const navigate=useNavigate()
   const [LoginDetails, setLoginDetails] = useState({ email: "", password: "" })
   console.log(LoginDetails);
 
@@ -16,8 +17,9 @@ const Login = () => {
 
     if (userFound) {
       alert("login successfully")
+      localStorage.setItem("LoggedUser",JSON.stringify(userFound))
       setLoginDetails({ email: "", password: "" })
-      
+      navigate("/dashboard")
     }
     else {
       alert("Invalid Credentials")

@@ -1,11 +1,12 @@
 import React from 'react'
 import Data from '../Data/data'
-const card = () => {
+const Card = ({data}) => {
   return (
-    <div>card
-        <Data></Data>
+    <div>
+      
+       <Data/> 
     </div>
   )
 }
 
-export default card
+export default Card

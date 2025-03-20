@@ -1,0 +1,15 @@
+.navbar{
+    display: flex !important;
+    justify-content: space-evenly !important;
+    color: aliceblue;
+}
+.nav-collapse{
+    display: flex;
+    justify-content:flex-end;
+    font-size: 1.2rem;
+    color: white;
+}
+.nav{
+    gap:10px;
+    color: white;
+}
